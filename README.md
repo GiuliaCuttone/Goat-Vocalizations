@@ -1,11 +1,11 @@
 # Goat-Vocalizations
-The project focuses on classifying goat vocalizations using machine learning techniques.
-We utilized the VOCAPRA all dataset, extracting a wide variety of temporal and spectral features.
+This project aims to classify goat emotions based on vocalizations using machine learning techniques.
+We utilized the VOCAPRA dataset, extracting a comprehensive range of temporal and spectral features for analysis.
 
-K-means clustering was applied to visualize the feature space, followed by the training and evaluation of two classical classification models:
+To explore the feature space, K-means clustering was applied for visualization.
+Subsequently, we trained and evaluated three classification models:
 - Support Vector Machine (SVM)
 - Random Forest
-- alongside a Neural Network model.
+- Neural Network.
 
-Our results indicate that all models effectively classify vocalizations, with Neural Network outperforming the others
-in terms of accuracy.
+Our findings demonstrate that all models effectively classify vocalizations, with the Neural Network achieving the highest accuracy.
